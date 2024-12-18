@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Breadcrumb */
+  .breadcrumb {
+    padding: 15px 20px;
+    background-color: #f8f8f8;
+    font-size: 0.9rem;
+  }
+  
+  .breadcrumb a {
+    color: #2c6e49;
+    text-decoration: none;
+  }
+  
+  .breadcrumb span {
+    color: #555;
+  }
+  
+  /* Product Page */
+  .product-page {
+    padding: 40px 20px;
+  }
+  
+  .product-display {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .product-images {
+    flex: 1;
+  }
+  
+  .product-images .main-image {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-images .image-gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .image-gallery img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-details {
+    flex: 2;
+  }
+  
+  .product-details h1 {
+    font-size: 2rem;
+    color: #2c6e49;
+    margin-bottom: 10px;
+  }
+  
+  .product-details .price {
+    font-size: 1.5rem;
+    color: #f7c74a;
+    margin-bottom: 15px;
+  }
+  
+  .short-description {
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .purchase-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .purchase-section input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .purchase-section .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart {
+    background-color: #2c6e49;
+    color: white;
+  }
+  
+  .buy-now {
+    background-color: #f7c74a;
+    color: #2c6e49;
+  }
+  
+  /* Related Products */
+  .related-products {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+  }
+  
+  .related-products h2 {
+    text-align: center;
+    color: #2c6e49;
+    margin-bottom: 20px;
+  }
+  
+  .products-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .product-card .price {
+    font-size: 1rem;
+    color: #f7c74a;
+  }
+  

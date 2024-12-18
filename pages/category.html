@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category Page</title>
+  <link rel="stylesheet" href="../css/category.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Category Page</h1>
+  </header>
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb">
+    <a href="/">Home</a> > <span id="category-name">Category</span>
+  </nav>
+
+  <!-- Filters, Search, and Sort -->
+  <section class="filters">
+    <div class="filter-group">
+      <label for="search-input">Search:</label>
+      <input type="text" id="search-input" placeholder="Search products...">
+    </div>
+    <div class="filter-group">
+      <label for="price-range">Price Range:</label>
+      <select id="price-range">
+        <option value="all">All</option>
+        <option value="0-10">Under $10</option>
+        <option value="10-20">$10 - $20</option>
+        <option value="20-50">$20 - $50</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="sort-by">Sort By:</label>
+      <select id="sort-by">
+        <option value="default">Default</option>
+        <option value="name-asc">Name (A-Z)</option>
+        <option value="name-desc">Name (Z-A)</option>
+        <option value="price-asc">Price (Low to High)</option>
+        <option value="price-desc">Price (High to Low)</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="product-grid" id="product-grid"></section>
+
+  <!-- Pagination -->
+  <div class="pagination" id="pagination"></div>
+
+  <!-- Footer -->
+
+  <!-- Footer Placeholder -->
+  <div id="footer"></div>
+
+
+
+
+  <script src="../js/common.js" type="module" defer></script>
+
+  <script src="../js/category.js"></script>
+</body>
+</html>

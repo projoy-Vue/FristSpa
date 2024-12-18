@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "name": "Eco-Friendly Bottles",
+      "description": "Explore our wide range of sustainable, reusable bottles designed to reduce waste and keep you hydrated.",
+      "products": [
+        {
+          "id": 101,
+          "name": "Stainless Steel Water Bottle",
+          "price": 24.99,
+          "image": "path/to/bottle1.jpg"
+        },
+        {
+          "id": 102,
+          "name": "Glass Water Bottle",
+          "price": 29.99,
+          "image": "path/to/bottle2.jpg"
+        },
+        {
+          "id": 103,
+          "name": "Collapsible Travel Bottle",
+          "price": 19.99,
+          "image": "path/to/bottle3.jpg"
+        },
+        {
+          "id": 104,
+          "name": "BPA-Free Water Bottle",
+          "price": 34.99,
+          "image": "path/to/bottle4.jpg"
+        },
+        {
+          "id": 105,
+          "name": "Reusable Water Bottle Set",
+          "price": 39.99,
+          "image": "path/to/bottle5.jpg"
+        },
+        {
+          "id": 106,
+          "name": "Reusable Water Bottle Set",
+          "price": 49.99,
+          "image": "path/to/bottle6.jpg"
+        },
+        {
+          "id": 107,
+          "name": "Reusable Water Bottle Set",
+          "price": 59.99,
+          "image": "path/to/bottle7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Reusable Bags",
+      "description": "Shop our collection of reusable bags perfect for groceries, shopping, and more.",
+      "products": [
+        {
+          "id": 201,
+          "name": "Cotton Tote Bag",
+          "price": 14.99,
+          "image": "path/to/bag1.jpg"
+        },
+        {
+          "id": 202,
+          "name": "Jute Grocery Bag",
+          "price": 12.99,
+          "image": "path/to/bag2.jpg"
+        },
+        {
+          "id": 203,
+          "name": "Foldable Shopping Bag",
+          "price": 9.99,
+          "image": "path/to/bag3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Compostable Straws",
+      "description": "Discover our compostable straw collection for a greener lifestyle.",
+      "products": [
+        {
+          "id": 301,
+          "name": "Compostable Straw Set",
+          "price": 19.99,
+          "image": "path/to/straw1.jpg"
+        },
+        {
+          "id": 302,
+          "name": "Compostable Straw Bag",
+          "price": 14.99,
+          "image": "path/to/straw2.jpg"
+        },
+        {
+          "id": 303,
+          "name": "Compostable Straw Bag",
+          "price": 9.99,
+          "image": "path/to/straw3.jpg"
+        }
+
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Eco-Friendly",
+      "slug": "eco-friendly",
+      "description": "Explore our range of eco-friendly products.",
+      " category": "eco-friendly",
+      "products": [
+        {
+          "id": 301,
+          "name": "Eco Water Bottle",
+          "image": "../images/eco-water-bottle.jpg",
+          "price": 15.99
+        },
+        {
+          "id": 302,
+          "name": "Reusable Straw Set",
+          "image": "../images/reusable-straws.jpg",
+          "price": 9.99
+        },
+        {
+          "id": 303,
+          "name": "Compostable Straw Set",
+          "image": "../images/compostable-straws.jpg",
+          "price": 19.99
+        }
+      ]
+    }
+
+  ]
+  
+  

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="../css/product-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Include your header code here -->
+  </header>
+  <section class="product-page">
+    <div class="container">
+      <div class="product-display">
+        <!-- Product Images -->
+        <div class="product-images">
+          <img id="main-image" alt="Product Main Image" class="main-image">
+          <div class="image-gallery" id="image-gallery"></div>
+        </div>
+        <!-- Product Details -->
+        <div class="product-details">
+          <h1 id="product-name"></h1>
+          <p class="price" id="product-price"></p>
+          <p class="short-description" id="product-description"></p>
+          <ul class="features" id="product-features"></ul>
+          <div class="purchase-section">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1" value="1">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Related Products Section -->
+  <section class="related-products">
+    <div class="container">
+      <h2>Related Products</h2>
+      <div class="products-grid" id="related-products"></div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <!-- Include your footer code here -->
+  </footer>
+
+  <script src="../js/product-details.js"></script>
+</body>
+</html>

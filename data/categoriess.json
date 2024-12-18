@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Eco Water Bottle",
+      "price": 15.99,
+      "image": "../images/eco-water-bottle.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Reusable Straw Set",
+      "price": 9.99,
+      "image": "../images/reusable-straws.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Organic Cotton Tote Bag",
+      "price": 12.49,
+      "image": "../images/cotton-tote-bag.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Bamboo Toothbrush",
+      "price": 4.99,
+      "image": "../images/bamboo-toothbrush.jpg"
+    }
+  ]
+  

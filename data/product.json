@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "Eco-Friendly Water Bottle",
+      "price": 19.99,
+      "description": "Stay hydrated with our sustainable, reusable water bottle. Perfect for on-the-go lifestyles.",
+      "features": [
+        "Made from 100% recycled materials",
+        "BPA-free and dishwasher safe",
+        "Available in multiple colors"
+      ],
+      "images": [
+        "path/to/main-product-image.jpg",
+        "path/to/image1.jpg",
+        "path/to/image2.jpg",
+        "path/to/image3.jpg"
+      ],
+      "relatedProducts": [
+        {
+          "name": "Eco-Friendly Coffee Mug",
+          "price": 14.99,
+          "image": "path/to/related-product1.jpg"
+        },
+        {
+          "name": "Reusable Shopping Bag",
+          "price": 9.99,
+          "image": "path/to/related-product2.jpg"
+        },
+        {
+          "name": "Compostable Straw Set",
+          "price": 12.99,
+          "image": "path/to/related-product3.jpg"
+        }
+      ]
+    }
+  ]
+  
